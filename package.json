@@ -1,0 +1,39 @@
+{
+  "name": "glsl-specular-ward",
+  "version": "1.0.0",
+  "description": "Ward anisotropic specular model",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "beefy example/example.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/glsl-specular-ward.git"
+  },
+  "keywords": [
+    "ward",
+    "anisotropic",
+    "specular",
+    "lighting",
+    "shiny",
+    "glsl",
+    "glslify"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stackgl/glsl-specular-ward/issues"
+  },
+  "browserify": {
+    "transform": "glslify"
+  },
+  "homepage": "https://github.com/stackgl/glsl-specular-ward",
+  "devDependencies": {
+    "a-big-triangle": "^1.0.0",
+    "glslify": "^1.6.0",
+    "beefy": "^2.1.1"
+  }
+}
