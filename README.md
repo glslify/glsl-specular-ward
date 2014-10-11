@@ -30,7 +30,7 @@ void main() {
     lightDirection, 
     viewDirection, 
     normal, 
-    firberPar,
+    fiberPar,
     fiberPerp,
     shinyPar,
     shinyPerp);
